@@ -27,11 +27,11 @@ while (true)
             }
             else if (userGuess > secretNumber)
             {
-                Console.WriteLine(difference <= nearDifference ? "High! You're very close!" : "Too High!");
+                Console.WriteLine(difference <= nearDifference ? "🔥 High! but you're close!" : "📈 Too High!");
             }
             else
             {
-                Console.WriteLine(difference <= nearDifference ? "Low! You're very close!" : "Too Low!");
+                Console.WriteLine(difference <= nearDifference ? "❄️ Low! but you're close!" : "📉 Too Low!");
             }
         }
         else
